@@ -1,0 +1,7 @@
+.timer {
+ margin-bottom:2rem ;
+}
+
+.timer input{
+    border-radius:25%  ; width : 2rem ; height:2rem ;
+}

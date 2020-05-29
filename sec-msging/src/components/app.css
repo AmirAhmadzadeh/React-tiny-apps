@@ -1,0 +1,45 @@
+.main{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    background: #caa ;
+    align-items: center;
+}
+
+.main-box {
+    border : 2px solid #cacaca ;
+    padding :1rem ;
+    width:50% ;
+    height : 33% ;
+    box-shadow : 0 2px 4px #eee ;
+}
+
+.show {
+    display : block
+}
+
+.text_input {
+    padding : 1rem ;
+    border: 2px solid #ccc
+}
+
+.box {
+    display:flex ;
+    flex-flow : column ;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+button {
+    cursor : pointer
+}
+
+.result {
+    display : none ;
+}
